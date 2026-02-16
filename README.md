@@ -1,10 +1,11 @@
 # DLQ Triage Sample
 
-A deep-dive article draft + runnable Python sample + **real AWS CDK infrastructure** for an end-to-end DLQ triage system: **classify -> decision -> action**, with guardrails.
+A runnable Python sample + **real AWS CDK infrastructure** for an end-to-end DLQ triage system: **classify -> decision -> action**, with guardrails.
+
+![DLQ Triage architecture](DLQ_Triage_img.jpg)
 
 ## Contents
 
-- `dlq-triage-medium.md` -- Medium-style deep dive (anonymized)
 - `dlq_triage_sample.py` -- Runnable local sample
 - `app.py`, `cdk.json`, `dlq_triage_infra/` -- CDK app
 - `lambda/` -- DLQ triage, redrive, ticket, and producer lambdas
